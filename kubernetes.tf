@@ -30,7 +30,7 @@ resource "kubernetes_deployment" "nginx" {
       spec {
         container {
           image = "dwi-cralwer"
-          name  = "example"
+          name  = "dwi-cralwer-name"
 
           port {
             container_port = 80
